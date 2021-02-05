@@ -51,6 +51,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.Device" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -73,6 +74,20 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APP_CODE\FORMS\GameTable.Designer.vb">
+      <DependentUpon>GameTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APP_CODE\FORMS\GameTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APP_CODE\FORMS\HomePage.Designer.vb">
+      <DependentUpon>HomePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APP_CODE\FORMS\HomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APP_CODE\Game.vb" />
+    <Compile Include="APP_CODE\Interfaz.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +112,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="APP_CODE\FORMS\GameTable.resx">
+      <DependentUpon>GameTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APP_CODE\FORMS\HomePage.resx">
+      <DependentUpon>HomePage.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

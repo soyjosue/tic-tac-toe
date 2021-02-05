@@ -1,0 +1,14 @@
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\bin\Debug\tic-tac-toe.exe.config
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\bin\Debug\tic-tac-toe.exe
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\bin\Debug\tic-tac-toe.pdb
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\bin\Debug\tic-tac-toe.xml
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.vbprojAssemblyReference.cache
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic_tac_toe.Form1.resources
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic_tac_toe.Resources.resources
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.vbproj.GenerateResource.cache
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.vbproj.CoreCompileInputs.cache
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.exe
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.xml
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic-tac-toe.pdb
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic_tac_toe.HomePage.resources
+C:\Users\ejino\Escritorio\tic-tac-toe\tic-tac-toe\obj\Debug\tic_tac_toe.gameTable.resources
