@@ -1,12 +1,14 @@
 ﻿Public Class GameTable
 
     Private _labels(2) As String
+    Private _btns(,) As Windows.Forms.Button
 
     Private Sub gameTable_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        _btns = {{btn11, btn12, btn13}, {btn21, btn22, btn23}, {btn31, btn32, btn33}}
         ' Guarda los textos de los labels por default
         _labels = {LabelPlayer.Text, LabelBot.Text}
         ' Inicia el juego
-        Game.StartGame(LabelPlayer, LabelBot)
+        Game.StartGame(LabelPlayer, LabelBot, _btns)
     End Sub
 
     Private Sub ResetBtn_Click(sender As Object, e As EventArgs) Handles ResetBtn.Click
@@ -14,8 +16,7 @@
         LabelPlayer.Text = _labels(0)
         LabelBot.Text = _labels(1)
         ' Se reinicia el juego
-        Game.StartGame(LabelPlayer, LabelBot)
-        Game.ResetGame({btn11, btn12, btn13, btn21, btn22, btn23, btn31, btn32, btn33})
+        Game.ResetGame(LabelPlayer, LabelBot)
     End Sub
 
     Private Sub btn11_Click(sender As Object, e As EventArgs) Handles btn11.Click
