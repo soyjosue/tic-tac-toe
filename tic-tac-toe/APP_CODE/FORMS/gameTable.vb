@@ -15,6 +15,7 @@
         LabelBot.Text = _labels(1)
         ' Se reinicia el juego
         Game.StartGame(LabelPlayer, LabelBot)
+        Game.ResetGame({btn11, btn12, btn13, btn21, btn22, btn23, btn31, btn32, btn33})
     End Sub
 
     Private Sub btn11_Click(sender As Object, e As EventArgs) Handles btn11.Click
