@@ -1,13 +1,15 @@
 ﻿Module Interfaz
 
-    ' Funcion que oculta elementos
+    ' --- Funcion que oculta elementos ---
     Private Sub HideComponent(ByRef element)
 
         element.Hide()
 
     End Sub
 
-    ' Funciones que muestran Forms
+    ' --- Funciones que muestran Forms ---
+
+    ' Funcion para mostrar Form ShowPage
     Public Sub ShowHomePage()
 
         HomePage.TopLevel = False
@@ -18,6 +20,7 @@
 
     End Sub
 
+    ' Funcion para mostrar Form GameTable
     Public Sub ShowGameTable()
 
         GameTable.TopLevel = False
@@ -27,8 +30,9 @@
         Form1.PanelHome.Controls.Add(GameTable)
 
     End Sub
+    ' --- Funcion que ocultan Forms ---
 
-    ' Funcion que ocultan Forms
+    ' Funcion para ocultar form HomePage
     Public Sub HideHomePage()
 
         HomePage.Close()

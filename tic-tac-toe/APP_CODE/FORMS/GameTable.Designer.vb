@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class gameTable
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class GameTable
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class gameTable
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -31,9 +31,9 @@ Partial Class gameTable
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button10 = New System.Windows.Forms.Button()
+        Me.LabelPlayer = New System.Windows.Forms.Label()
+        Me.LabelBot = New System.Windows.Forms.Label()
+        Me.ResetBtn = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -43,7 +43,6 @@ Partial Class gameTable
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -52,7 +51,6 @@ Partial Class gameTable
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -61,7 +59,6 @@ Partial Class gameTable
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -70,7 +67,6 @@ Partial Class gameTable
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
@@ -79,7 +75,6 @@ Partial Class gameTable
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
@@ -88,7 +83,6 @@ Partial Class gameTable
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Button6"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button7
@@ -97,7 +91,6 @@ Partial Class gameTable
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(75, 23)
         Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Button7"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Button8
@@ -106,7 +99,6 @@ Partial Class gameTable
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(75, 23)
         Me.Button8.TabIndex = 7
-        Me.Button8.Text = "Button8"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Button9
@@ -115,35 +107,34 @@ Partial Class gameTable
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(75, 23)
         Me.Button9.TabIndex = 8
-        Me.Button9.Text = "Button9"
         Me.Button9.UseVisualStyleBackColor = True
         '
-        'Label1
+        'LabelPlayer
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(91, 228)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(23, 13)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Tu:"
+        Me.LabelPlayer.AutoSize = True
+        Me.LabelPlayer.Location = New System.Drawing.Point(91, 228)
+        Me.LabelPlayer.Name = "LabelPlayer"
+        Me.LabelPlayer.Size = New System.Drawing.Size(23, 13)
+        Me.LabelPlayer.TabIndex = 9
+        Me.LabelPlayer.Text = "Tu:"
         '
-        'Label2
+        'LabelBot
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(309, 228)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 13)
-        Me.Label2.TabIndex = 10
-        Me.Label2.Text = "Maquina:"
+        Me.LabelBot.AutoSize = True
+        Me.LabelBot.Location = New System.Drawing.Point(309, 228)
+        Me.LabelBot.Name = "LabelBot"
+        Me.LabelBot.Size = New System.Drawing.Size(51, 13)
+        Me.LabelBot.TabIndex = 10
+        Me.LabelBot.Text = "Maquina:"
         '
-        'Button10
+        'ResetBtn
         '
-        Me.Button10.Location = New System.Drawing.Point(13, 281)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(422, 23)
-        Me.Button10.TabIndex = 11
-        Me.Button10.Text = "Reiniciar"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.ResetBtn.Location = New System.Drawing.Point(13, 281)
+        Me.ResetBtn.Name = "ResetBtn"
+        Me.ResetBtn.Size = New System.Drawing.Size(422, 23)
+        Me.ResetBtn.TabIndex = 11
+        Me.ResetBtn.Text = "Reiniciar"
+        Me.ResetBtn.UseVisualStyleBackColor = True
         '
         'Label3
         '
@@ -153,16 +144,17 @@ Partial Class gameTable
         Me.Label3.Size = New System.Drawing.Size(47, 13)
         Me.Label3.TabIndex = 12
         Me.Label3.Text = "Ganaste"
+        Me.Label3.Visible = False
         '
-        'gameTable
+        'GameTable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(447, 324)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.ResetBtn)
+        Me.Controls.Add(Me.LabelBot)
+        Me.Controls.Add(Me.LabelPlayer)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
@@ -173,7 +165,7 @@ Partial Class gameTable
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "gameTable"
+        Me.Name = "GameTable"
         Me.Text = "gameTable"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -189,8 +181,8 @@ Partial Class gameTable
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Button10 As Button
+    Friend WithEvents LabelPlayer As Label
+    Friend WithEvents LabelBot As Label
+    Friend WithEvents ResetBtn As Button
     Friend WithEvents Label3 As Label
 End Class

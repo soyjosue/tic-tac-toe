@@ -11,10 +11,18 @@
     End Function
 
     ' Funcion para iniciar el juego
-    Public Sub StartGame()
+    Public Sub StartGame(ByRef player As Windows.Forms.Label, ByRef pc As Windows.Forms.Label)
 
         Dim start As Integer = ChooseFirstPlayer()
 
+        Select Case start
+            Case 1
+                player.Text += " X"
+                pc.Text += " O"
+            Case Else
+                player.Text += " O"
+                pc.Text += " X"
+        End Select
 
     End Sub
 
